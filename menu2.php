@@ -1,8 +1,8 @@
 <?php
 	require_once "database.php";
-	include "./managers/snackManager.php";
+	include "./managers/selectManager.php";
 
-	$snacks = snackmanager::select();
+	$snacks = selectManager::selectPatat();
 ?>
 <html>
 	<body>
