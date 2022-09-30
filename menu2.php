@@ -1,19 +1,20 @@
 <?php
 	require_once "database.php";
-	include "./managers/foodManager.php";
+	include "./managers/snackManager.php";
 
-	$foods = foodmanager::select();
+	$snacks = snackmanager::select();
 ?>
 <html>
 	<body>
 		<div class="Patat">
 			<table>
 				<thead>
-					<th>name</th>
+                <th>name</th>
+                <th>price</th>
 				</thead>
 				<tbody>
 					<?php
-						foreach($foods as $food){
+						foreach($snacks as $snack){
 							echo "<td></td>";
 							echo "<td></td>";
 						}
