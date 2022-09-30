@@ -9,14 +9,16 @@
 		<div class="Patat">
 			<table>
 				<thead>
-                <th>name</th>
-                <th>price</th>
+                    <!-- naam -->
+					<th></th> 
+					<!-- price -->
+                    <th></th>
 				</thead>
 				<tbody>
 					<?php
 						foreach($snacks as $snack){
 							echo "<td></td>";
-							echo "<td></td>";
+							echo "<td>€ </td>";
 						}
 					?>
 				</tbody>

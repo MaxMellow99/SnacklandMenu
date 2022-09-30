@@ -15,13 +15,14 @@
         <option></option>
         <option></option>
     </select>
+    <button>kiezen</button>
     <!-- tabel uitlezen waar je een update wil doen -->
     <table>
         <thead></thead>
         <tbody></tbody>
     </table>
     
-    <!-- product aanpassen update verwijderen -->
+    <!-- product update verwijderen -->
     <form method="post">
         <p>Product</p>
         <input type="text"><br/><br/>
