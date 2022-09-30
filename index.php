@@ -1,5 +1,11 @@
+<?php
+	require_once "database.php";
+	include "./managers/foodManager.php";
+
+	$food = foodmanager::select();
+?>
 <html>
 	<body>
-		<h1>HellsaDVFBGd!</h1>
+		<div class="menu"></div>
 	</body>
 </html>
