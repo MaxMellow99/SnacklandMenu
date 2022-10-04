@@ -21,11 +21,13 @@
 				<tbody>
 					<?php
 						foreach($broodjes as $b){
+							echo "<tr>";
 							echo "<td>$b->name</td>";
 							echo "<td>$b->price</td>";
                             if($b->description != null){
                                 echo "<td>$b->description</td>";
                             }
+							echo "</tr>";
 						}
 					?>
 
@@ -42,11 +44,13 @@
 				<tbody>
 					<?php
 						foreach($hamburgers as $hamburger){
+							echo "<tr>";
 							echo "<td>$hamburger->name</td>";
 							echo "<td>$hamburger->price</td>";
                             if($hamburger->description != null){
                                 echo "<td>$hamburger->description</td>";
                             }
+							echo "</tr>";
 						}
 					?>
 				</tbody>
@@ -62,11 +66,13 @@
 				<tbody>
 					<?php
 						foreach($kip as $k){
+							echo "<tr>";
 							echo "<td>$k->name</td>";
 							echo "<td>$k->price</td>";
                             if($k->description != null){
                                 echo "<td>$k->description</td>";
                             }
+							echo "</tr>";
 						}
 					?>
 				</tbody>
@@ -82,11 +88,14 @@
 				<tbody>
 					<?php
 						foreach($pita as $pit){
+							echo "<tr>";
 							echo "<td>$pit->name</td>";
 							echo "<td>$pit->price</td>";
                             if($pit->description != null){
                                 echo "<td>$pit->description</td>";
                             }
+							echo "</tr>";
+
 						}
 					?>
 				</tbody>

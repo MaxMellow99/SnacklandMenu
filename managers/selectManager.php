@@ -6,7 +6,7 @@
             $stmt = $con->prepare("SELECT * FROM patat");
             $stmt->execute();
 
-            return $stmt -> fetchObject(PDO::FETCH_OBJ);       
+            return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
          public static function selectSauzen(){
             global $con;
@@ -14,15 +14,15 @@
             $stmt = $con->prepare("SELECT * FROM sauzen");
             $stmt->execute();
 
-            return $stmt -> fetchObject(PDO::FETCH_OBJ);       
+            return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
          public static function selectSnacks(){
             global $con;
 
-            $stmt = $con->prepare("SELECT * FROM snack");
+            $stmt = $con->prepare("SELECT * FROM snacks");
             $stmt->execute();
 
-            return $stmt -> fetchObject(PDO::FETCH_OBJ);       
+            return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
          public static function selectBroodjes(){
             global $con;
@@ -30,7 +30,7 @@
             $stmt = $con->prepare("SELECT * FROM broodjes");
             $stmt->execute();
 
-            return $stmt -> fetchObject(PDO::FETCH_OBJ);       
+            return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
          public static function selectHamburgers(){
             global $con;
