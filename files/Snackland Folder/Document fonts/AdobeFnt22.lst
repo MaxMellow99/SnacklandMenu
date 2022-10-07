@@ -11,7 +11,7 @@ FullName:Futura Std Bold
 MenuName:Futura Std Book
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-Bold.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Bold.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -37,7 +37,7 @@ FullName:Futura Std Book
 MenuName:Futura Std Book
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-Book.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Book.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -63,7 +63,7 @@ FullName:Futura Std Book Oblique
 MenuName:Futura Std Book
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-BookOblique.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-BookOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -89,7 +89,7 @@ FullName:Futura Std Heavy
 MenuName:Futura Std Medium
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-Heavy.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Heavy.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -115,7 +115,7 @@ FullName:Futura Std Heavy Oblique
 MenuName:Futura Std Medium
 StyleBits:3
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-HeavyOblique.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-HeavyOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -141,7 +141,7 @@ FullName:Futura Std Light Oblique
 MenuName:Futura Std Light
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-LightOblique.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-LightOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -167,7 +167,7 @@ FullName:Futura Std Medium
 MenuName:Futura Std Medium
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\Max\Desktop\Snackland Folder\Document fonts\FuturaStd-Medium.otf
+OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Medium.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
