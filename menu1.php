@@ -19,8 +19,8 @@
 				<div class="gridColL">
 					<table class="tableA">
 						<thead>
-							<th><p class="title">Patat</p></th>
-							<th><p><!--Bedrag--></p></th>
+							<th class="title">Patat</th>
+							<th><!--Bedrag--></th>
 						</thead>
 						<tbody>
 							<?php
@@ -39,9 +39,12 @@
 					</table>
 						
 					<table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
 						<thead>
-							<th><p class="title">Sauzen</p></th>
-							<th><p><!--Bedrag--></p></th>
+							<th class="title">Sauzen</th>
+							<th><!--Bedrag--></th>
 						</thead>
 						<tbody>
 							<?php
@@ -62,8 +65,8 @@
 				<div class="gridColM">
 					<table class="tableA">
 						<thead>
-							<th><p class="title">Snacks</p></th>
-							<th><p><!--Bedrag--></p></th>
+							<th class="title">Snacks</th>
+							<th><!--Bedrag--></th>
 						</thead>
 						<tbody>
 							<?php
@@ -84,7 +87,7 @@
 				<div class="gridColR">
 					<table class="tableA">
 						<thead>
-							<th><p class="title"><span style="visibility:hidden;">Snacks</span></p></th>
+							<th class="title"><span style="visibility:hidden;">Space</span></th>
 							<th><p><!--Bedrag--></p></th>
 						</thead>
 						<tbody>

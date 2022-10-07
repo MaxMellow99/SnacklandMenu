@@ -2,150 +2,182 @@
 	require_once "database.php";
 	include "./managers/selectManager.php";
 
-	$porties = selectManager::selectPorties();
-    $kindermenu = selectmanager::selectKindermenu();
-    $smoothies = selectmanager::selectSmoothies();
-    $milkshakes = selectmanager::selectMilkshakes();
-    $dranken = selectmanager::selectDranken();
+	$porties = selectmanager::selectPorties();
+    $kind = selectmanager::selectKindermenu();
+    $smoothie = selectmanager::selectSmoothies();
+    $milkshake = selectmanager::selectMilkshakes();
+    $drank1 = selectmanager::selectDranken1();
+    $drank2 = selectmanager::selectDranken2();
     $ijs = selectmanager::selectIjs();
 ?>
+<!DOCTYPE html>
 <html>
-<body>
-		<div class="vier">
-			<h1>Porties</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($porties as $port){
-							echo "<tr>";
-							echo "<td>$port->name</td>";
-							echo "<td>$port->price</td>";
-                            echo "<br>";
-                            if($port->description != null){
-                                echo "<td>$port->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				
-				</tbody>
-			</table>
-			<h1>kindermenu</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($kindermenu as $kinder){
-							echo "<tr>";
-							echo "<td>$kinder->name</td>";
-							echo "<td>$kinder->price</td>";
-                            if($kinder->description != null){
-                                echo "<td>$kinder->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
-			<h1>Smoothies</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($smoothies as $smooth){
-							echo "<tr>";
-							echo "<td>$smooth->name</td>";
-							echo "<td>$smooth->price</td>";
-                            if($smooth->description != null){
-                                echo "<td>$smooth->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
-            <h1>Milkshakes</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($milkshakes as $milk){
-							echo "<tr>";
-							echo "<td>$milk->name</td>";
-							echo "<td>$milk->price</td>";
-                            if($milk->description != null){
-                                echo "<td>$milk->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
-            <h1>Dranken</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($dranken as $drank){
-							echo "<tr>";
-							echo "<td>$drank->name</td>";
-							echo "<td>$drank->price</td>";
-                            if($drank->description != null){
-                                echo "<td>$drank->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
-            <h1>Ijs</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($ijs as $ij){
-							echo "<tr>";
-							echo "<td>$ij->name</td>";
-							echo "<td>$ij->price</td>";
-                            if($ij->description != null){
-                                echo "<td>$ij->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
+	<head>
+		<title>Menu 4</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="main">
+			<div class="gridContainer">
+				<div class="gridColL">
+					<table class="tableA">
+						<thead>
+							<th class="title">Porties</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($porties as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name</td>";
+										echo "<td class='tableR text price'>$item->price</td>";							
+									echo "</tr>";
+									if($item->description != null) {
+										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableR'></td>";
+									}
+								}
+							?>
+						</tbody>
+					</table>
+					<table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
+						<thead>
+							<th class="title">Kindermenu</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($kind as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name</td>";
+										echo "<td class='tableR text price'>$item->price</td>";
+									echo "</tr>";
+									if($item->description != null) {
+										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableR'></td>";
+									}
+								}
+							?>
+						</tbody>
+					</table>
+				</div>
+				<div class="gridColM">
+					<table class="tableA">
+						<thead>
+							<th class="title">Smoothies</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($smoothie as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name</td>";
+										echo "<td class='tableR text price'>$item->price</td>";							
+									echo "</tr>";
+									if($item->description != null) {
+										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableR'></td>";
+									}
+								}
+							?>
+						</tbody>
+					</table>
+                    <table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
+                        <thead>
+                            <th class="title">Milkshakes</th>
+                            <th><!--Bedrag--></th>
+                        </thead>
+                        <tbody>
+                            <?php
+                                foreach($milkshake as $item) {
+                                    echo "<tr>";
+                                    echo "<td class='tableL text'>$item->name</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
+                                    if($item->description != null) {
+                                        echo "<td class='tableL description'>$item->description</td>";
+                                        echo "<td class='tableR'></td>";
+                                    }
+                                }
+                            ?>
+                        </tbody>
+                    </table>
+                    <table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
+                        <thead>
+                            <th class="title">Dranken</th>
+                            <th><p><!--Bedrag--></p></th>
+                        </thead>
+                        <tbody>
+                             <?php
+                                foreach($drank1 as $item) {
+                                    echo "<tr>";
+                                    echo "<td class='tableL text'>$item->name ";
+                                    if($item->description != null) {
+                                        echo "<span class='description'>$item->description</span>";
+                                    }
+                                    echo "</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
+                                }
+                             ?>
+                        </tbody>
+                    </table>
+				</div>
+				<div class="gridColR">
+                    <table class="tableA">
+                        <thead>
+                        <th class="title"><span style="visibility:hidden;">Space</span></th>
+                            <th><p><!--Bedrag--></p></th>
+                        </thead>
+                        <tbody>
+                            <?php
+                                foreach($drank2 as $item) {
+                                    echo "<tr>";
+                                    echo "<td class='tableL text'>$item->name ";
+                                    if($item->description != null) {
+                                        echo "<span class='description'>$item->description</span>";
+                                    }
+                                    echo "</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
+                                }
+                            ?>
+                        </tbody>
+                    </table>
+                    <table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
+                        <thead>
+                            <th class="title">Dranken</th>
+                            <th><p><!--Bedrag--></p></th>
+                        </thead>
+                        <tbody>
+                            <?php
+                                foreach($ijs as $item) {
+                                    echo "<tr>";
+                                    echo "<td class='tableL text'>$item->name ";
+                                    if($item->description != null) {
+                                        echo "<span class='description'>$item->description</span>";
+                                    }
+                                    echo "</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
+                                }
+                            ?>
+                        </tbody>
+                    </table>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -2,104 +2,136 @@
 	require_once "database.php";
 	include "./managers/selectManager.php";
 
-	$menu = selectManager::selectMenu();
-    $specialiteiten = selectmanager::selectSpecialiteiten();
-    $pizza = selectmanager::selectPizza();
-    $pasta = selectmanager::selectPasta();
-?>
-<html>
-<body>
-		<div class="drie">
-			<h1>Menu</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($menu as $men){
-							echo "<tr>";
-							echo "<td>$men->name</td>";
-							echo "<td>$men->price</td>";
-                            if($men->description != null){
-                                echo "<td>$men->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				
-				</tbody>
-			</table>
-			<h1>Specialiteiten</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($specialiteiten as $special){
-							echo "<tr>";
-							echo "<td>$special->name</td>";
-							echo "<td>$special->price</td>";
-                            if($special->description != null){
-                                echo "<td>$special->description</td>";
-                            }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
-			<h1>Pizza</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($pizza as $piz){
-							echo "<tr>";
-							echo "<td>$piz->name</td>";
-							echo "<td>$piz->price</td>";
-                            if($piz->description != null){
-                                echo "<td>$piz->description</td>";
-                            }
-							echo "</tr>";
+	$menu1 = selectManager::selectMenu1();
+	$menu2 = selectManager::selectMenu2();
+	$specialiteiten = selectManager::selectSpecialiteiten();
+	$pizza = selectManager::selectPizza();
+	$pasta = selectManager::selectPasta();
 
-						}
-					?>
-				</tbody>
-			</table>
-            <h1>Pasta</h1>
-			<table>
-				<thead>
-					<!-- naam -->
-					<th></th> 
-					<!-- price -->
-                    <th></th>
-				</thead>
-				<tbody>
-					<?php
-						foreach($pasta as $past){
-							echo "<tr>";
-							echo "<td>$past->name</td>";
-							echo "<td>$past->price</td>";
-                            if($past->description != null){
-                                echo "<td>$past->description</td>";
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu 3</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="main">
+			<div class="gridContainer">
+				<div class="gridColL">
+					<table class="tableA">
+						<thead>
+							<th class="title">Menu's</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($menu1 as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name</td>";
+										echo "<td class='tableR text price'>$item->price</td>";							
+									echo "</tr>";
+									if($item->description != null) {
+										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableR'></td>";
+									}
+								}
+							?>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="gridColM">
+					<table class="tableA tableS">
+						<thead>
+							<th class="title">Snackland Specialiteiten</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($specialiteiten as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name</td>";
+										echo "<td class='tableR text price'>$item->price</td>";							
+									echo "</tr>";
+									if($item->description != null) {
+										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableR'></td>";
+									}
+								}
+							?>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="gridColR">
+                    <table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                            <th><p><!--Bedrag--></p></th>
+                        </thead>
+                        <tbody>
+                            <?php
+                                foreach($menu2 as $item) {
+                                    echo "<tr>";
+                                    echo "<td class='tableL text'>$item->name</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
+                                    if($item->description != null) {
+                                        echo "<td class='tableL description'>$item->description</td>";
+                                        echo "<td class='tableR'></td>";
+                                    }
+                                }
+                            ?>
+                        </tbody>
+                    </table>
+
+					<table class="tableA">
+						<thead>
+							<th class="title">Turkse Pizza</th>
+							<th><!--Bedrag--></th>
+						</thead>
+						<tbody>
+							<?php
+								foreach($pizza as $item) {
+									echo "<tr>";
+										echo "<td class='tableL text'>$item->name ";
+										if($item->description != null) {
+											echo "<span class='description'>$item->description</span>";
+										}
+										echo "</td>";
+										echo "<td class='tableR text price'>$item->price</td>";
+									echo "</tr>";
+								}
+							?>
+						</tbody>
+					</table>
+
+                    <table class="tableA">
+                        <thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                        </thead>
+                        <thead>
+                            <th class="title">Pita</th>
+                            <th><!--Bedrag--></th>
+                        </thead>
+                        <tbody>
+                        <?php
+                        foreach($pasta as $item) {
+                            echo "<tr>";
+                            echo "<td class='tableL text'>$item->name ";
+                            if($item->description != null) {
+                                echo "<span class='description'>$item->description</span>";
                             }
-							echo "</tr>";
-						}
-					?>
-				</tbody>
-			</table>
+                            echo "</td>";
+                            echo "<td class='tableR text price'>$item->price</td>";
+                            echo "</tr>";
+                        }
+                        ?>
+                        </tbody>
+                    </table>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -128,14 +128,22 @@
 
             return $stmt->fetchObject();       
          }
-         public static function selectMenu(){
+         public static function selectMenu1(){
             global $con;
 
-            $stmt = $con->prepare("SELECT * FROM menu");
+            $stmt = $con->prepare("SELECT * FROM menu LIMIT 14");
             $stmt->execute();
 
             return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
+        public static function selectMenu2(){
+            global $con;
+
+            $stmt = $con->prepare("SELECT * FROM menu LIMIT 14, 3");
+            $stmt->execute();
+
+            return $stmt->fetchAll(PDO::FETCH_OBJ);
+        }
          public static function selectidMenu($id){
             global $con;
 
@@ -264,14 +272,22 @@
 
             return $stmt->fetchObject();       
          }
-         public static function selectDranken(){
+         public static function selectDranken1(){
             global $con;
 
-            $stmt = $con->prepare("SELECT * FROM dranken");
+            $stmt = $con->prepare("SELECT * FROM dranken LIMIT 4");
             $stmt->execute();
 
             return $stmt->fetchAll(PDO::FETCH_OBJ);       
          }
+         public static function selectDranken2(){
+            global $con;
+
+            $stmt = $con->prepare("SELECT * FROM dranken LIMIT 4, 2");
+            $stmt->execute();
+
+            return $stmt->fetchAll(PDO::FETCH_OBJ);
+        }
          public static function selectidDranken($id){
             global $con;
 

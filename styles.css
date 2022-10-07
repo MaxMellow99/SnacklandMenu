@@ -1,5 +1,5 @@
 body {
-    background-color: #00294b;
+    background-color: #202a3a;
 }
 
 @font-face {
@@ -19,6 +19,7 @@ body {
 
 .main {
     width: 95%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,6 +55,7 @@ body {
     font-size: 35px;
     color: #FFFFFF;
     text-align: left;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
 }
 
 .text {
@@ -62,13 +64,15 @@ body {
     color: #FFFFFF;
     text-align: left;
     line-height: 50px;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
 }
 
 .description {
     font-family: futuraLight;
     font-size: 30px;
     color: #FFFFFF;
-    text-align: right;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
 }
 
 .price {
@@ -85,4 +89,11 @@ body {
 
 .tableR {
     width: 30%;
+}
+
+.tableS {
+    background-color: #535849;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.3), 6px 6px 6px rgba(0,0,0,0.3);
+    padding: 25px;
+    border-radius: 5px;
 }

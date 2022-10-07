@@ -1,5 +1,5 @@
 %!Adobe-FontList 1.22
-%Locale:0x409
+%Locale:0x413
 
 %BeginFont
 Handler:DirectoryHandler
@@ -11,14 +11,14 @@ FullName:Futura Std Bold
 MenuName:Futura Std Book
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Bold.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Bold.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:26900
-FileModTime:1116093702
+FileModTime:1664992690
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -37,14 +37,14 @@ FullName:Futura Std Book
 MenuName:Futura Std Book
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Book.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Book.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:25708
-FileModTime:1116093706
+FileModTime:1664992690
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -63,14 +63,14 @@ FullName:Futura Std Book Oblique
 MenuName:Futura Std Book
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-BookOblique.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-BookOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:26984
-FileModTime:1116093708
+FileModTime:1664992690
 WeightClass:400
 WidthClass:5
 AngleClass:1
@@ -89,14 +89,14 @@ FullName:Futura Std Heavy
 MenuName:Futura Std Medium
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Heavy.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Heavy.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:26380
-FileModTime:1116093726
+FileModTime:1664992690
 WeightClass:650
 WidthClass:5
 AngleClass:0
@@ -115,14 +115,14 @@ FullName:Futura Std Heavy Oblique
 MenuName:Futura Std Medium
 StyleBits:3
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-HeavyOblique.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-HeavyOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:27444
-FileModTime:1116093726
+FileModTime:1664992690
 WeightClass:650
 WidthClass:5
 AngleClass:1
@@ -141,14 +141,14 @@ FullName:Futura Std Light Oblique
 MenuName:Futura Std Light
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-LightOblique.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-LightOblique.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:27700
-FileModTime:1116093730
+FileModTime:1664992690
 WeightClass:300
 WidthClass:5
 AngleClass:1
@@ -167,14 +167,14 @@ FullName:Futura Std Medium
 MenuName:Futura Std Medium
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\wamp64\www\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Medium.otf
+OutlineFileName:C:\Users\apens\Documents\GitHub\SnacklandMenu\files\Snackland Folder\Document fonts\FuturaStd-Medium.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:25504
-FileModTime:1116093732
+FileModTime:1664992690
 WeightClass:500
 WidthClass:5
 AngleClass:0
