@@ -65,6 +65,11 @@ body {
     text-align: left;
     line-height: 50px;
     text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #535849;
 }
 
 .description {
@@ -96,4 +101,8 @@ body {
     box-shadow: 6px 6px 6px rgba(0,0,0,0.3), 6px 6px 6px rgba(0,0,0,0.3);
     padding: 25px;
     border-radius: 5px;
+}
+
+.updateList {
+    margin: 30px;
 }

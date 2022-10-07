@@ -1,6 +1,6 @@
 <?php
-	require_once "database.php";
-	include "./managers/selectManager.php";
+    require_once "../static/database.php";
+    include "../private/managers/selectManager.php";
 
 	$porties = selectmanager::selectPorties();
     $kind = selectmanager::selectKindermenu();

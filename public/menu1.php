@@ -1,6 +1,6 @@
 <?php
-	require_once "database.php";
-	include "./managers/selectManager.php";
+	require_once "../static/database.php";
+	include "../private/managers/selectManager.php";
 
 	$patat = selectManager::selectPatat();
 	$sauzen = selectManager::selectSauzen();
@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Menu 1</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
