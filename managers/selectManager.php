@@ -35,10 +35,18 @@
 
             return $stmt->fetchObject();       
          }
-         public static function selectSnacks(){
+         public static function selectSnacks1(){
             global $con;
 
-            $stmt = $con->prepare("SELECT * FROM snacks");
+            $stmt = $con->prepare("SELECT * FROM snacks LIMIT 17");
+            $stmt->execute();
+
+            return $stmt->fetchAll(PDO::FETCH_OBJ);       
+         }
+         public static function selectSnacks2(){
+            global $con;
+
+            $stmt = $con->prepare("SELECT * FROM snacks LIMIT 17, 13");
             $stmt->execute();
 
             return $stmt->fetchAll(PDO::FETCH_OBJ);       

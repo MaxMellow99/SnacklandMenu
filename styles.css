@@ -1,0 +1,88 @@
+body {
+    background-color: #00294b;
+}
+
+@font-face {
+    font-family: futuraBold;
+    src: url(fonts/FuturaStd-Bold.otf);
+}
+
+@font-face {
+    font-family: futuraMedium;
+    src: url(fonts/FuturaStd-Medium.otf);
+}
+
+@font-face {
+    font-family: futuraLight;
+    src: url(fonts/FuturaStd-LightOblique.otf);
+}
+
+.main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 2vw;
+}
+
+.gridColL {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridColM {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridColR {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.title {
+    font-family: futuraBold;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.text {
+    font-family: futuraMedium;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 50px;
+}
+
+.description {
+    font-family: futuraLight;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.price {
+    text-align: right; 
+}
+
+.tableA {
+    width: 30vw;
+}
+
+.tableL {
+    width: 70%;
+}
+
+.tableR {
+    width: 30%;
+}

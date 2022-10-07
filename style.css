@@ -1,14 +1,3 @@
-*{
-    background-color: #00294b;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #00294b;
-    padding: 10px;
-    color: white;
-    height: 100vh;
-  }
   .grid-item {
     color: white;
     /* //border: 1px solid rgba(255, 255, 255, 0.8); */
@@ -21,4 +10,9 @@
   }
   .borderless td, .borderless th {
     border: none;
+}
+
+.text {
+  font-family: futuraMedium;
+  font-size: 35px;
 }
