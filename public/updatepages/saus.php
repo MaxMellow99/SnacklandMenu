@@ -1,7 +1,7 @@
 <?php
-require_once "../database.php";
-include "../managers/selectManager.php";
-include "../managers/updateManager.php";
+require_once "../../static/database.php";
+include "../../private/managers/selectManager.php";
+include "../../private/managers/updateManager.php";
 
 $hoi = selectmanager::selectSauzen();
 
@@ -35,7 +35,7 @@ if ($_POST) {
                 echo "<tr>";
                 echo "<td>$h->name</td>";
                 echo "<td>$h->price</td>";
-                echo "<td><a class=' btn btn-primary' href='saus.php?id=$h->id'>...</a></td>";
+                echo "<td><a class=' btn btn-primary' href='update.php?id=$h->id& saus=1'>...</a></td>";
                 echo "</tr>";
             }
 

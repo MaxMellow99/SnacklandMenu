@@ -1,7 +1,7 @@
 <?php
-require_once "../database.php";
-include "../managers/selectManager.php";
-include "../managers/updateManager.php";
+require_once "../../static/database.php";
+include "../../private/managers/selectManager.php";
+include "../../private/managers/updateManager.php";
 
 $hoi = selectmanager::selectPatat();
 
