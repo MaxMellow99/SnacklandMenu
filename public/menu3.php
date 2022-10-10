@@ -12,7 +12,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Menu 3</title>
+        <meta charset="UTF-8">
+        <title>Menu 3</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
