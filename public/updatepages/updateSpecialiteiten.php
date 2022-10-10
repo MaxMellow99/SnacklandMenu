@@ -8,6 +8,7 @@ if (isset($_GET["id"])) {
 }
 if ($_POST) {
     updateManager::updateSpecialiteiten($_GET["id"], $_POST["naam"], $_POST["prijs"], $_POST["description"]);
+    header("location:specialiteiten.php");
 }
 ?>
 <html>

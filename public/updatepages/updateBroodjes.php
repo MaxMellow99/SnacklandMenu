@@ -8,6 +8,7 @@ include "../../private/managers/updateManager.php";
 }
 if ($_POST) {
     updateManager::updateBroodjes($_GET["id"], $_POST["naam"], $_POST["prijs"], $_POST["description"]);
+    header("location:broodjes.php");
 }
 ?>
 <html>

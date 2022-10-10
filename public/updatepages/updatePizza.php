@@ -8,6 +8,7 @@ if (isset($_GET["id"])) {
 }
 if ($_POST) {
     updateManager::updatePizza($_GET["id"], $_POST["naam"], $_POST["prijs"], $_POST["description"]);
+    header("location:pizza.php");
 }
 ?>
 <html>

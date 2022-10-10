@@ -8,6 +8,7 @@ include "../../private/managers/updateManager.php";
 }
 if ($_POST) {
     updateManager::updateIjs($_GET["id"], $_POST["naam"], $_POST["prijs"], $_POST["description"]);
+    header("location:ijs.php");
 }
 ?>
 <html>
