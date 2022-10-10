@@ -13,7 +13,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Menu 4</title>
+        <meta charset="UTF-8">
+        <title>Menu 4</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
