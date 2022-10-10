@@ -41,7 +41,7 @@
             <br/>
 		<a class="text link" href='updatepages/smoothies.php'>smooties</a>
             <br/>
-		<a class="text link" href='updatepages/milkshakes.php'm>ilkshakes</a>
+		<a class="text link" href='updatepages/milkshakes.php'>Milkshakes</a>
             <br/>
 		<a class="text link" href='updatepages/dranken.php'>dranken</a>
             <br/>
