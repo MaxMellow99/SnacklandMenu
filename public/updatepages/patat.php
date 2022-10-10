@@ -3,50 +3,40 @@ require_once "../../static/database.php";
 include "../../private/managers/selectManager.php";
 include "../../private/managers/updateManager.php";
 
-$hoi = selectmanager::selectPatat();
+$patat = selectmanager::selectPatat();
 
 if (isset($_GET["id"])) {
-    $hallo = selectmanager::selectidPatat($_GET["id"]);
+    $patatje = selectmanager::selectidPatat($_GET["id"]);
 }
-
 if ($_POST) {
     updateManager::updatePatat($_GET["id"], $_POST["naam"], $_POST["prijs"], $_POST["description"]);
 }
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-       
-    </style>
 </head>
-
 <body>
 <a href="../admin.php" class="btn btn-primary m-3">Terug</a>
-
     <table class="table table-striped">
-
         <thead class="table-dark">
             <th>Patat</th>
             <th>prijs</th>
             <th></th>
-            </head>
+        </thead>
         <tbody>
             <?php
-            foreach ($hoi as $h) {
+            foreach ($patat as $p) {
                 echo "<tr>";
-                echo "<td>$h->name</td>";
-                echo "<td>$h->price</td>";
-                echo "<td><a class='btn btn-primary' href='updatePatat?id=$h->id'>...</a></td>";
+                echo "<td>$p->name</td>";
+                echo "<td>$p->price</td>";
+                echo "<td><a class='btn btn-primary' href='updatePatat?id=$p->id'>...</a></td>";
                 echo "</tr>";
             }
-
             ?>
         </tbody>
     </table>
 </body>
-
 </html>
