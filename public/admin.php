@@ -45,7 +45,7 @@
 		<a class="text link" href='updatepages/dranken.php'>dranken</a>
             <br/>
 		<a class="text link" href='updatepages/ijs.php'>ijs</a>
-</div>"
+</div>
 
 </body>
 </html>

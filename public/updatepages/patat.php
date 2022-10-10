@@ -25,6 +25,8 @@ if ($_POST) {
 </head>
 
 <body>
+<a href="../admin.php" class="btn btn-primary m-3">Terug</a>
+
     <table class="table table-striped">
 
         <thead class="table-dark">
@@ -38,36 +40,13 @@ if ($_POST) {
                 echo "<tr>";
                 echo "<td>$h->name</td>";
                 echo "<td>$h->price</td>";
-                echo "<td><a class='btn btn-primary' href='?id=$h->id'>...</a></td>";
+                echo "<td><a class='btn btn-primary' href='updatePatat?id=$h->id'>...</a></td>";
                 echo "</tr>";
             }
 
             ?>
         </tbody>
     </table>
-    <form method="post" id="hhh">
-        <input name="naam" type="text" <?php 
-        if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidPatat($_GET["id"]);
-            echo "value='$hallo->name'";
-        }
-        ?>>
-        <input name="prijs" type="text" <?php 
-         if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidPatat($_GET["id"]);
-            echo "value='$hallo->price'"  ;
-        }
-        ?>>
-        <input name="description" type="text" <?php
-         if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidPatat($_GET["id"]);
-            echo "value='$hallo->description'";
-                }
-       ?>>
-
-        <input type="submit" class="btn btn-primary">
-    </form>
-   
 </body>
 
 </html>

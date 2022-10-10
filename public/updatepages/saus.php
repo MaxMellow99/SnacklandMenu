@@ -19,9 +19,14 @@ if ($_POST) {
 <head>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
+<a href="../admin.php" class="btn btn-primary m-3">Terug</a>
+
     <table class="table table-striped">
 
         <thead class="table-dark">
@@ -35,35 +40,14 @@ if ($_POST) {
                 echo "<tr>";
                 echo "<td>$h->name</td>";
                 echo "<td>$h->price</td>";
-                echo "<td><a class=' btn btn-primary' href='update.php?id=$h->id& saus=1'>...</a></td>";
+                echo "<td><a  class='btn btn-primary' href='updateSauzen.php?id=$h->id'>...</a></td>";
                 echo "</tr>";
             }
 
             ?>
         </tbody>
     </table>
-    <form method="post" id="hhh">
-        <input name="naam" type="text" <?php 
-        if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidSauzen($_GET["id"]);
-            echo "value='$hallo->name'";
-        }
-        ?>>
-        <input name="prijs" type="text" <?php 
-         if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidSauzen($_GET["id"]);
-            echo "value='$hallo->price'"  ;
-        }
-        ?>>
-        <input name="description" type="text" <?php
-         if (isset($_GET["id"])) {
-            $hallo = selectmanager::selectidSauzen($_GET["id"]);
-            echo "value='$hallo->description'";
-                }
-       ?>>
 
-        <input type="submit" class="btn btn-primary">
-    </form>
 </body>
 
 </html>
