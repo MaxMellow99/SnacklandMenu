@@ -138,7 +138,8 @@ INSERT INTO `ijs` (`id`, `name`, `price`, `description`) VALUES
 (7, 'Oubliehoorn', '2.80', NULL),
 (8, 'Koekbeker', '2.80', NULL),
 (9, 'Bakje ijs', '1.80', NULL),
-(10, 'Nootjes of discodip', '0.80', NULL);
+(10, 'Nootjes of discodip', '0.80', NULL),
+(11, 'Waterijs', '0.50', NULL);
 
 -- --------------------------------------------------------
 
