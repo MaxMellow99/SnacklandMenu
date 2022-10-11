@@ -122,7 +122,7 @@
                             <th class="title"><span style="visibility:hidden;">Space</span></th>
                         </thead>
                         <thead>
-                            <th class="title">Pita</th>
+                            <th class="title">Pasta</th>
                             <th><!--Bedrag--></th>
                         </thead>
                         <tbody>
