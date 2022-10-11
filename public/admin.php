@@ -12,6 +12,9 @@
       </head>
       <body>
             <table class="table table-striped">
+                  <thead>
+                        <th>Admin</th>
+                  </thead>
                   <tbody>
                         <tr><td><a class="btn btn-primary" href="updatePages/patat.php">Patat</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/saus.php">Sauzen</a></td></tr>

@@ -28,7 +28,7 @@
 								foreach($patat as $item) {
 									echo "<tr>";
 										echo "<td class='tableL text'>$item->name</td>";
-										echo "<td class='tableR text price'>$item->price</td>";							
+										echo "<td class='tableR text price'>€$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
 										echo "<td class='tableL description'>&emsp;$item->description</td>";
@@ -52,7 +52,7 @@
 								foreach($sauzen as $item) {
 									echo "<tr>";
 										echo "<td class='tableL text'>$item->name</td>";
-										echo "<td class='tableR text price'>$item->price</td>";							
+										echo "<td class='tableR text price'>€$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
 										echo "<td class='tableL description'>$item->description</td>";
@@ -74,7 +74,7 @@
 								foreach($snacksM as $item) {
 									echo "<tr>";
 										echo "<td class='tableL text'>$item->name</td>";
-										echo "<td class='tableR text price'>$item->price</td>";							
+										echo "<td class='tableR text price'>€$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
 										echo "<td class='tableL description'>$item->description</td>";
@@ -100,7 +100,7 @@
 											echo "<span class='description'>$item->description</span>";
 										}	
 										echo "</td>";
-										echo "<td class='tableR text price'>$item->price</td>";
+										echo "<td class='tableR text price'>€$item->price</td>";
 									echo "</tr>";
 								}
 							?>
