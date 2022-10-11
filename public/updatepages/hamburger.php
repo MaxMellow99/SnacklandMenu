@@ -22,7 +22,6 @@ if ($_POST) {
 <body>
     <a href="../admin.php" class="btn btn-primary m-3">Terug</a>
     <table class="table table-striped">
-
         <thead class="table-dark">
             <th>Hamburgers</th>
             <th>prijs</th>
@@ -34,7 +33,7 @@ if ($_POST) {
                 echo "<tr>";
                 echo "<td>$h->name</td>";
                 echo "<td>$h->price</td>";
-                echo "<td><a class=' btn btn-primary' href='updateHamburger.php?id=$h->id'>...</a></td>";
+                echo "<td><a class='btn btn-primary' href='updateHamburger.php?id=$h->id'>...</a></td>";
                 echo "</tr>";
             }
             ?>
