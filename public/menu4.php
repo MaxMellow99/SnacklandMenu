@@ -165,7 +165,7 @@
                             <th class="title"><span style="visibility:hidden;">Space</span></th>
                         </thead>
                         <thead>
-                            <th class="title">Dranken</th>
+                            <th class="title">Ijs</th>
                             <th><p><!--Bedrag--></p></th>
                         </thead>
                         <tbody>
