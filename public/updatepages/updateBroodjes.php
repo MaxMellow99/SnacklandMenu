@@ -15,11 +15,11 @@ if ($_POST) {
     <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <a href="broodjes.php" class="btn btn-primary m-3">Terug</a>
-    <div class="hhh">
+    <div class="updateForm">
         <form method="post">
             <input class="form-control" name="naam" type="text" <?php echo "value='$dranken->name'"  ?>><br />
             <input class="form-control" name="prijs" type="text" <?php echo "value='$dranken->price'" ?>><br />

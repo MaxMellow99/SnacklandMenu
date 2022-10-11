@@ -81,6 +81,7 @@ body {
 .description {
     font-family: futuraLight;
     font-size: 30px;
+    text-align: left;
     color: #FFFFFF;
     text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
 }

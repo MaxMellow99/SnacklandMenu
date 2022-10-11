@@ -1,21 +1,8 @@
-  .grid-item {
-    color: white;
-    /* //border: 1px solid rgba(255, 255, 255, 0.8); */
-    padding: 20px;
-    font-size: 30px;
-    text-align: left;
-  }
-  td{
-    color: white;
-  }
-  .borderless td, .borderless th {
-    border: none;
-}
-
 .text {
   font-family: futuraMedium;
   font-size: 35px;
 }
+
 .hhh{
   width: 50%;
   margin-left: auto;
