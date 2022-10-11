@@ -19,33 +19,33 @@
             <br/>
 		<a class="text link" href='updatepages/snacks.php'>Snacks</a>
             <br/>
-		<a class="text link" href='updatepages/broodjes.php'>broodjes</a>
+		<a class="text link" href='updatepages/broodjes.php'>Broodjes</a>
             <br/>
-		<a class="text link" href='updatepages/hamburger.php'>hamburgers</a>
+		<a class="text link" href='updatepages/hamburger.php'>Hamburgers</a>
             <br/>
-		<a class="text link" href='updatepages/kip.php'>kip</a>
+		<a class="text link" href='updatepages/kip.php'>Kip</a>
             <br/>
-		<a class="text link" href='updatepages/pita.php'>pita</a>
+		<a class="text link" href='updatepages/pita.php'>Pita</a>
             <br/>
-		<a class="text link" href='updatepages/menu.php'>menu</a>
+		<a class="text link" href='updatepages/menu.php'>Menu's</a>
             <br/>
-		<a class="text link" href='updatepages/specialiteiten.php'>specialiteiten</a>
+		<a class="text link" href='updatepages/specialiteiten.php'>Specialiteiten</a>
             <br/>
-		<a class="text link" href='updatepages/pizza.php'>pizza</a>
+		<a class="text link" href='updatepages/pizza.php'>Pizza</a>
             <br/>
-		<a class="text link" href='updatepages/pasta.php'>pasta</a>
+		<a class="text link" href='updatepages/pasta.php'>Pasta</a>
             <br/>
-		<a class="text link" href='updatepages/porties.php'>porties</a>
+		<a class="text link" href='updatepages/porties.php'>Porties</a>
             <br/>
-		<a class="text link" href='updatepages/kindermenu.php'>kindermenu</a>
+		<a class="text link" href='updatepages/kindermenu.php'>Kindermenu</a>
             <br/>
-		<a class="text link" href='updatepages/smoothies.php'>smooties</a>
+		<a class="text link" href='updatepages/smoothies.php'>Smooties</a>
             <br/>
 		<a class="text link" href='updatepages/milkshakes.php'>Milkshakes</a>
             <br/>
-		<a class="text link" href='updatepages/dranken.php'>dranken</a>
+		<a class="text link" href='updatepages/dranken.php'>Dranken</a>
             <br/>
-		<a class="text link" href='updatepages/ijs.php'>ijs</a>
+		<a class="text link" href='updatepages/ijs.php'>Ijs</a>
 </div>
 
 </body>

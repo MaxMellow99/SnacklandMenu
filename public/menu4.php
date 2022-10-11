@@ -50,18 +50,24 @@
 							<th><!--Bedrag--></th>
 						</thead>
 						<tbody>
+                            <tr>
+                                <td>
+                                    <p class="description heavy">In een kindermenu zit een kleine patat, klein bakje fritessaus, appelmoes, fristi of chocomel en een snack naar keuze</p>
+                                </td>
+                            </tr>
 							<?php
 								foreach($kind as $item) {
-									echo "<tr>";
-										echo "<td class='tableL text'>$item->name</td>";
-										echo "<td class='tableR text price'>$item->price</td>";
-									echo "</tr>";
-									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
-										echo "<td class='tableR'></td>";
-									}
+                                    echo "<tr>";
+                                        echo "<td class='tableL text'>$item->name ";
+                                        if($item->description != null) {
+                                            echo "<span class='description'>$item->description</span>";
+                                        }
+                                        echo "</td>";
+                                    echo "<td class='tableR text price'>$item->price</td>";
+                                    echo "</tr>";
 								}
 							?>
+
 						</tbody>
 					</table>
 				</div>
@@ -175,6 +181,11 @@
                                     echo "</tr>";
                                 }
                             ?>
+                            <tr>
+                                <td>
+                                    <p class="description heavy">Keuze uit de verschillende waterijsjes in de vriezer <br/><span class="description">Vraag naar welke ijsjes wij verkopen</span></p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
 				</div>

@@ -33,7 +33,7 @@
 										echo "<td class='tableR text price'>$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableL description'>&emsp;$item->description</td>";
 										echo "<td class='tableR'></td>";
 									}
 								}
@@ -56,13 +56,22 @@
 										echo "<td class='tableR text price'>$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableL description'>&emsp;$item->description</td>";
 										echo "<td class='tableR'></td>";
 									}
 								}
 							?>
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
 						</tbody>
 					</table>
+                    <p class="description heavy">Alle menu's worden geserveerd met patat, salade en 2 soorten saus</p>
 				</div>
 
 				<div class="gridColR">
