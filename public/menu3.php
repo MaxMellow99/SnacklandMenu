@@ -98,6 +98,10 @@
 
 					<table class="tableA">
 						<thead>
+                            <th class="title"><span style="visibility:hidden;">Space</span></th>
+                            <th><p><!--Bedrag--></p></th>
+                        </thead>
+						<thead>
 							<th class="title">Turkse Pizza</th>
 							<th><!--Bedrag--></th>
 						</thead>
