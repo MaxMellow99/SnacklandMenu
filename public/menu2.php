@@ -32,7 +32,7 @@
 										echo "<td class='tableR text price'>$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableL description'>&emsp;$item->description</td>";
 										echo "<td class='tableR'></td>";
 									}
 								}
@@ -55,11 +55,19 @@
 										echo "<td class='tableR text price'>$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableL description'>&emsp;$item->description</td>";
 										echo "<td class='tableR'></td>";
 									}
 								}
 							?>
+                            <tr>
+                                <td>
+                                    <p class="description heavy">Op alle hamburgers zit sla en saus naar keuze</p>
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
 						</tbody>
 					</table>
 				</div>

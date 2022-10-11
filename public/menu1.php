@@ -31,7 +31,7 @@
 										echo "<td class='tableR text price'>$item->price</td>";							
 									echo "</tr>";
 									if($item->description != null) {
-										echo "<td class='tableL description'>$item->description</td>";
+										echo "<td class='tableL description'>&emsp;$item->description</td>";
 										echo "<td class='tableR'></td>";
 									}
 								}
@@ -104,6 +104,14 @@
 									echo "</tr>";
 								}
 							?>
+                            <tr>
+                                <td>
+                                    <p class="description heavy">Snacks zijn ook verkrijgbaar op een bolletje of pistoletje</p>
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
 						</tbody>
 					</table>
 				</div>

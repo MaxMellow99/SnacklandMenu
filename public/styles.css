@@ -1,5 +1,6 @@
 body {
     background-color: #202a3a;
+    overflow: hidden;
 }
 
 @font-face {
@@ -15,6 +16,11 @@ body {
 @font-face {
     font-family: futuraLight;
     src: url(fonts/FuturaStd-LightOblique.otf);
+}
+
+@font-face {
+    font-family: futuraHeavy;
+    src: url(fonts/FuturaStd-HeavyOblique.otf);
 }
 
 .main {
@@ -76,8 +82,15 @@ body {
     font-family: futuraLight;
     font-size: 30px;
     color: #FFFFFF;
-    text-align: center;
     text-shadow: 3px 3px 2px rgba(0,0,0,0.4), 3px 3px 2px rgba(0,0,0,0.4);
+}
+
+.heavy {
+    font-family: futuraHeavy;
+}
+
+.tab {
+    width: 20px;
 }
 
 .price {
