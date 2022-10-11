@@ -32,7 +32,7 @@ if ($_POST) {
                 echo "<tr>";
                 echo "<td>$m->name</td>";
                 echo "<td>$m->price</td>";
-                echo "<td><a class=' btn btn-primary' href='updateMenu.php?id=$m->id'>...</a></td>";
+                echo "<td><a class=' btn btn-primary' href='updateiMenu.php?id=$m->id'>...</a></td>";
                 echo "</tr>";
             }
             ?>
