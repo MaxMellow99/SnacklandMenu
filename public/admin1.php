@@ -19,7 +19,7 @@
                         <tr><td><a class="btn btn-primary" href="updatePages/patat.php">Patat</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/saus.php">Sauzen</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/snacks.php">Snacks</a></td></tr>
-                        <tr><td><a class="btn btn-primary" href="updatePages/broodjes.php">Broodjes</a></td></tr>
+                        <!-- <tr><td><a class="btn btn-primary" href="updatePages/broodjes.php">Broodjes</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/hamburger.php">Hamburger</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/kip.php">Kip</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/pita.php">Pita</a></td></tr>
@@ -32,7 +32,7 @@
                         <tr><td><a class="btn btn-primary" href="updatePages/smoothies.php">Smoothies</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/milkshakes.php">Milkshakes</a></td></tr>
                         <tr><td><a class="btn btn-primary" href="updatePages/dranken.php">Dranken</a></td></tr>
-                        <tr><td><a class="btn btn-primary" href="updatePages/ijs.php">Ijs</a></td></tr>
+                        <tr><td><a class="btn btn-primary" href="updatePages/ijs.php">Ijs</a></td></tr> -->
                   </tbody>
             </table>
       </body>
