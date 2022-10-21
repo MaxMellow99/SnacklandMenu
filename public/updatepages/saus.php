@@ -20,7 +20,7 @@ if ($_POST) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 <body>
-<a href="../admin.php" class="btn btn-primary m-3">Terug</a>
+<a href="../admin1.php" class="btn btn-primary m-3">Terug</a>
     <table class="table table-striped">
         <thead class="table-dark">
             <th>Sauzen</th>
